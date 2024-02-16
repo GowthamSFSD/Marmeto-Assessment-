@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: #f7f2e6;
+    font-style: normal;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-inside-container {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    margin-right: 80px;
+}
+
+.icon {
+    border: 2px solid black;
+    width: 30px;
+    padding: 15px;
+}
+
+.icon-opera {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: 30px;
+    padding: 15px;
+}
+
+.fa-user {
+    width: 30px;
+}
+
+.input-insta-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+input {
+    height: 35px;
+    width: 300px;
+    border: 2px solid #51bef0;
+    outline: none;
+    margin-left: 40px;
+}
+
+
+.insta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.insta-line {
+    width: 100px;
+}
+
+.center-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contentet-container {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.second-line {
+    width: 70%;
+    margin-right: 200px;
+}
+
+.third-line {
+    width: 50%;
+    margin-right: 200px;
+}
+
+.view-all-btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 1px;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.watch-now-btn {
+    padding: 10px;
+    margin-left: 10px;
+    background: transparent;
+    outline: none;
+}
+
+.yellow-img-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.new-edition {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.yellow-img {
+    width: 250px;
+    height: 200px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    width: 33%;
+}
+
+.text-card {
+    width: 34%;
+    text-align: center;
+}
+
+.semi-colon {
+    color: #5ce1e6;
+}
+
+.card-image {
+    width: 160px;
+    height: 160px;
+}
+
+@media screen and (max-width:749px) {
+    .center-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    input {
+        display: none;
+    }
+
+    .insta-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
